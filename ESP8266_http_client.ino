@@ -34,8 +34,6 @@ void setup() {
   Serial.println(WiFi.localIP());
 }
 
-int value = 0;
-
 void loop() {
 
   if (millis() - previousMillis >= interval) {
